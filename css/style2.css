@@ -158,6 +158,7 @@ p {
 
 .for_svg {
   height: 100vh;
+  position: absolute;
 }
 
 #homepageShapeDesign {

@@ -155,17 +155,21 @@ p {
 
 .for_svg {
   height: 100vh;
+  position:relative;
 }
 
 #homepageShapeDesign {
   fill: #ffffff;
 }
-
+#homepageShapeDesign.shapeBottom, #homepageShapeDesign.shapeTop {
+   height: 20vh !important;
+}
 .shapeBottom {
   position: absolute;
   left: 0;
   bottom: -5px;
   width: 100%;
+  height: 20vh;
 }
 
 #homepageShapeDesign.shapeBottom,
