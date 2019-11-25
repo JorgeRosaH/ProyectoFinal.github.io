@@ -81,7 +81,11 @@ p {
 .content {
   padding: 50px 2% 250px;
 }
-
+.container
+{
+  position: relative;
+  z-index: 10;
+}
 .hero1 {
   
   background: rgb(32, 32, 32) url("../img/2.jpg") no-repeat center center fixed;

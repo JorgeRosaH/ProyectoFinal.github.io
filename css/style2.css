@@ -84,7 +84,11 @@ p {
 .content {
   padding: 50px 2% 250px;
 }
-
+.container
+{
+  position: relative;
+  z-index: 10;
+}
 .hero1 {
   
   background: rgb(56, 53, 53) url(../img/mass.jpg) no-repeat center center fixed;
