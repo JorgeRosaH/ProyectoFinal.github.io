@@ -85,7 +85,7 @@ p {
 .hero1 {
   position: relative;
   
-  background: rgb(32, 32, 32) url(/img/2.jpg) no-repeat center center fixed;
+  background: rgb(32, 32, 32) url("../img/2.jpg") no-repeat center center fixed;
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -234,7 +234,7 @@ p {
 
 {
   position: relative;
-  background: url(/img/1.jpg) no-repeat center center fixed;
+  background: url(../img/1.jpg) no-repeat center center fixed;
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -324,7 +324,7 @@ p {
 {
  
  position: relative;
- background: url(/img/e1.jpg) no-repeat center ;
+ background: url(../img/e1.jpg) no-repeat center ;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  background-size: cover;
@@ -333,7 +333,7 @@ p {
 
 {
   position: relative;
- background: url(/img/e2.jpg) no-repeat center ;
+ background: url(../img/e2.jpg) no-repeat center ;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  background-size: cover;
@@ -342,7 +342,7 @@ p {
 
 {
   position: relative;
- background: url(/img/e3.jpg) no-repeat center ;
+ background: url(../img/e3.jpg) no-repeat center ;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  background-size: cover;
@@ -351,7 +351,7 @@ p {
 
 {
   position: relative;
- background: url(/img/e4.jpg) no-repeat center ;
+ background: url(../img/e4.jpg) no-repeat center ;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  background-size: cover;
@@ -403,7 +403,7 @@ p {
 
 .cardBox:nth-child(1) .card .back {
   position: relative;
-  background: url(/img/e11.jpg) no-repeat center ;
+  background: url(../img/e11.jpg) no-repeat center ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -411,7 +411,7 @@ p {
 
 .cardBox:nth-child(2) .card .back {
   position: relative;
-  background: url(/img/e21.jpg) no-repeat center ;
+  background: url(../img/e21.jpg) no-repeat center ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -419,7 +419,7 @@ p {
 
 .cardBox:nth-child(3) .card .back {
   position: relative;
-  background: url(/img/e31.jpg) no-repeat center ;
+  background: url(../img/e31.jpg) no-repeat center ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -427,7 +427,7 @@ p {
 
 .cardBox:nth-child(4) .card .back {
   position: relative;
-  background: url(/img/e41.jpg) no-repeat center ;
+  background: url(../img/e41.jpg) no-repeat center ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
