@@ -1,3 +1,4 @@
+
 .navbar-collapse {
   flex-grow: 0;
 }
@@ -161,9 +162,7 @@ p {
 #homepageShapeDesign {
   fill: #ffffff;
 }
-#homepageShapeDesign.shapeBottom, #homepageShapeDesign.shapeTop {
-   height: 20vh !important;
-}
+
 .shapeBottom {
   position: absolute;
   left: 0;
@@ -172,11 +171,9 @@ p {
   height: 20vh;
 }
 
-#homepageShapeDesign.shapeBottom,
-#homepageShapeDesign.shapeTop {
-  height: 126px !important;
+#homepageShapeDesign.shapeBottom, #homepageShapeDesign.shapeTop {
+  height: 20vh !important;
 }
-
 
 .post-title {
   display: inline-block;
