@@ -86,7 +86,7 @@ p {
 }
 
 .hero1 {
-  position: relative;
+  
   background: rgb(56, 53, 53) url(../img/mass.jpg) no-repeat center center fixed;
 
   -webkit-background-size: cover;
@@ -95,7 +95,7 @@ p {
 
   color: rgb(211, 235, 240);
   text-align: center;
-  height: 100vh;
+  height: 100%;
   letter-spacing: 2px;
   font-family: "Montserrat", sans-serif;
   display: flex;
@@ -163,7 +163,7 @@ p {
 .shapeBottom {
   position: absolute;
   left: 0;
-  bottom: -5px;
+  bottom: 50px;
   width: 100%;
 }
 
