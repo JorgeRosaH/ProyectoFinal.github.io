@@ -1,0 +1,503 @@
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.dropdown-menu {
+  top: 115%;
+  color: #9e1313;
+  background-color: #ffffff;
+  border: 0px solid rgba(0, 0, 0, .15);
+  border-radius: .0rem;
+}
+
+.dropdown-menu a:hover {
+  color: #f7f7f7;
+  background-color: rgb(243, 152, 47);
+}
+
+.parallax {
+  height: 100vh;
+  background-image: url('/img/2,1.jpg');
+  background-size: cover;
+}
+
+.small {
+  -webkit-transition: all 0.3s;
+  color: red;
+}
+
+body {
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+ul,
+a,
+li {
+  -webkit-transition: all 0.3s ease;
+}
+
+.main_h {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+nav {
+  /*text-transform: uppercase;*/
+  -webkit-transition: all 0.5s;
+}
+
+.bg-tran {
+  background-color: #00000000 !important;
+  -webkit-transition: all 0.5s ease;
+}
+
+.bg-light {
+  background-color: #ffffff !important;
+  border-bottom: 0.5px solid #e2dbdb;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  
+  line-height: 1.8;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 17px;
+  line-height: 2;
+}
+
+.content {
+  padding: 50px 2% 250px;
+}
+
+.hero1 {
+  position: relative;
+  
+  background: rgb(32, 32, 32) url(/img/2.jpg) no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+
+  color: #fff;
+  text-align: center;
+  height: 100vh;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.hero1 h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 6vw;
+  line-height: 1.3;
+}
+
+.hero1 h1 span {
+  font-size: 3vw;
+  color: #e8f380;
+  border-bottom: 2px solid #e8f380;
+  padding-bottom: 12px;
+  line-height: 3;
+}
+
+.mouse {
+  display: block;
+  margin: 0 auto;
+  width: 26px;
+  height: 46px;
+  border-radius: 13px;
+  border: 2px solid #e8f380;
+  bottom: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -14px;
+}
+
+.mouse span {
+  display: block;
+  margin: 6px auto;
+  width: 2px;
+  height: 2px;
+  border-radius: 4px;
+  background: #e8f380;
+  border: 1px solid transparent;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+  animation-name: scroll;
+}
+
+
+
+.for_svg {
+  height: 100vh;
+}
+
+#homepageShapeDesign {
+  fill: #ffffff;
+}
+
+.shapeBottom {
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+}
+
+#homepageShapeDesign.shapeBottom,
+#homepageShapeDesign.shapeTop {
+  height: 126px !important;
+}
+
+
+.post-title {
+  display: inline-block;
+}
+
+.post-title:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+.post-title:hover:after {
+  width: 100%;
+  background: #f87000;
+}
+.img-fluid
+{
+  border-radius: 100%;
+}
+
+#cono h1
+{
+  font-size: 28px;
+  text-align: center;
+}
+#cono h1 span {
+    font-size: 35px;
+    color: #000000;
+    border-bottom: 2px solid #f02005;
+    padding-bottom: 12px;
+    line-height: 3;
+}
+.post-title2 {
+  display: inline-block;
+  text-align: center;
+}
+
+.post-title2:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+.post-title2:hover:after {
+  width: 100%;
+  background: #706c6c;
+}
+.massimo{
+  color: #000000;
+}
+.massimo:hover
+{
+  color: #706c6c;
+}
+.parallax2
+
+{
+  position: relative;
+  background: url(/img/1.jpg) no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+
+  color: #fff;
+  text-align: center;
+  height: 70vh;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+ 
+}
+#rece
+{
+ height: 100vh;
+}
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+}
+/*-----------Cardboxes--------------------*/
+
+.recetas h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  line-height: 1.3;
+}
+
+.recetas h1 span {
+  font-size: 35px;
+  color: #000000;
+  border-bottom: 2px solid #3fc266;
+  padding-bottom: 12px;
+  line-height: 3;
+}
+
+.cardBox {
+  float: left;
+  font-size: 1.2em;
+  margin: 1% 0 0 1%;
+  perspective: 800px;
+  transition: all 0.3s ease 0s;
+  width: 23.7%;
+}
+
+.cardBox:hover .card {
+  transform: rotateY( 180deg);
+}
+
+.card {
+  background: rgb(218, 32, 32);
+  cursor: default;
+  height: 300px;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease 0s;
+  width: 100%;
+  -webkit-animation: giro 1s 1;
+  animation: giro 1s 1;
+}
+.e-1
+
+{
+ 
+ position: relative;
+ background: url(/img/e1.jpg) no-repeat center ;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ background-size: cover;
+}
+.e-2
+
+{
+  position: relative;
+ background: url(/img/e2.jpg) no-repeat center ;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ background-size: cover;
+}
+.e-3
+
+{
+  position: relative;
+ background: url(/img/e3.jpg) no-repeat center ;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ background-size: cover;
+}
+.e-4
+
+{
+  position: relative;
+ background: url(/img/e4.jpg) no-repeat center ;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ background-size: cover;
+}
+.card p {
+  margin-bottom: 1.8em;
+}
+
+.card .front,
+.card .back {
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  color: white;
+  display: block;
+  font-size: 1.2em;
+  height: 100%;
+  padding: 0.8em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.card .front
+{
+  color: rgba(61, 34, 34, 0);
+}
+.card .front strong {
+  background: #fff;
+  border-radius: 100%;
+  color: #222;
+  font-size: 1.5em;
+  line-height: 30px;
+  padding: 0 7px 4px 6px;
+}
+
+.card .back {
+  transform: rotateY( 180deg);
+}
+
+.card .back a {
+  padding: 0.3em 0.5em;
+  
+  text-decoration: none;
+  
+  font-size: 0.9em;
+  transition: all 0.2s ease 0s;
+}
+
+
+
+.cardBox:nth-child(1) .card .back {
+  position: relative;
+  background: url(/img/e11.jpg) no-repeat center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.cardBox:nth-child(2) .card .back {
+  position: relative;
+  background: url(/img/e21.jpg) no-repeat center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.cardBox:nth-child(3) .card .back {
+  position: relative;
+  background: url(/img/e31.jpg) no-repeat center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.cardBox:nth-child(4) .card .back {
+  position: relative;
+  background: url(/img/e41.jpg) no-repeat center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.cardBox:nth-child(2) .card {
+  -webkit-animation: giro 1.5s 1;
+  animation: giro 1.5s 1;
+}
+
+.cardBox:nth-child(3) .card {
+  -webkit-animation: giro 2s 1;
+  animation: giro 2s 1;
+}
+
+.cardBox:nth-child(4) .card {
+  -webkit-animation: giro 2.5s 1;
+  animation: giro 2.5s 1;
+}
+/*------------Servicios------------------*/
+#servi h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  line-height: 1.3;
+}
+
+#servi h1 span {
+  font-size: 35px;
+  color: #000000;
+  border-bottom: 2px solid #3fc266;
+  padding-bottom: 12px;
+  line-height: 3;
+}
+@-webkit-keyframes giro {
+  from {
+    transform: rotateY( 180deg);
+  }
+  to {
+    transform: rotateY( 0deg);
+  }
+}
+
+@keyframes giro {
+  from {
+    transform: rotateY( 180deg);
+  }
+  to {
+    transform: rotateY( 0deg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cardBox {
+    margin-left: 2.8%;
+    margin-top: 3%;
+    width: 46%;
+  }
+  .card {
+    height: 285px;
+  }
+  .cardBox:last-child {
+    margin-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cardBox {
+    width: 94.5%;
+  }
+  .card {
+    height: 260px;
+  }
+}
