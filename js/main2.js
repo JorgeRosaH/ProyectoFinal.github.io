@@ -2,6 +2,12 @@
 ScrollReveal({ reset: true });
 
 window.sr = ScrollReveal();
+sr.reveal('.entradas',
+{
+    duration:1000,
+    origin:'bottom',
+    distance:'200px'
+});
 sr.reveal('h1',
 {
     duration:2000,

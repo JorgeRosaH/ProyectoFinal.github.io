@@ -9,6 +9,12 @@ sr.reveal('.recetas h1',
     origin:'bottom',
     distance:'200px'
 });
+sr.reveal('.boton12',
+{
+    duration:1000,
+    origin:'bottom',
+    distance:'200px'
+});
 sr.reveal('.cardBox',
 {
     duration:1000,

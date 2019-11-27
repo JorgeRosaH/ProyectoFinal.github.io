@@ -91,7 +91,7 @@ p {
 }
 .hero1 {
   
-  background: rgb(56, 53, 53) url(../img/mass.jpg) no-repeat center center fixed;
+  background: rgb(56, 53, 53) url(../img/PLATO\ PRINCIPAL.jpg) no-repeat center center fixed;
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -117,8 +117,8 @@ p {
 
 .hero1 h1 span {
   font-size: 3vw;
-  color: #1b3a4e;
-  border-bottom: 2px solid #698c99;
+  color: #ecb910;
+  border-bottom: 2px solid #ff8800;
   padding-bottom: 12px;
   line-height: 3;
 }
@@ -129,7 +129,7 @@ p {
   width: 26px;
   height: 46px;
   border-radius: 13px;
-  border: 2px solid #698c99;
+  border: 2px solid #ff8800;
   bottom: 100px;
   position: absolute;
   left: 50%;
@@ -142,7 +142,7 @@ p {
   width: 2px;
   height: 2px;
   border-radius: 4px;
-  background: #698c99;
+  background: #ff8800;
   border: 1px solid transparent;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -192,7 +192,7 @@ p {
 
 .post-title:hover:after {
   width: 100%;
-  background: #09a4ec;
+  background: #ff8800;
 }
 
 
@@ -204,7 +204,7 @@ p {
 #esp h2 span {
     font-size: 35px;
     color: #000000;
-    border-bottom: 2px solid #0bceff;
+    border-bottom: 2px solid #ff8800;
     padding-bottom: 12px;
     line-height: 3;
 }
@@ -224,14 +224,14 @@ p {
 
 .post-title2:hover:after {
   width: 100%;
-  background: #706c6c;
+  background: #ff8800;
 }
 .massimo{
   color: #000000;
 }
 .massimo:hover
 {
-  color: #706c6c;
+  color: #ff8800;
 }
 .parallax2
 

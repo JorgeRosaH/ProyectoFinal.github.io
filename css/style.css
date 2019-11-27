@@ -153,6 +153,64 @@ p {
 }
 
 
+/*-------------------------botono animado------------------------------------------*/
+.boton12 a{
+  text-decoration: none;
+}
+.boton {
+  display: block;
+  
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #f4b403, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 30px;
+  z-index: 1;
+}
+
+.boton:hover {
+  animation: animate 5s linear infinite;
+  color: white;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+}
+
+.boton:before {
+  content: '';
+  
+  
+  background: linear-gradient(90deg, #f4c803, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 40px;
+  opacity: 0;
+  transition: 0.5s;
+
+
+}
+
+.boton:hover:before {
+
+  filter: blur(20px);
+  opacity: 1;
+  animation: animate 5s linear infinite;
+}
+/*---------------------------*/
 
 .for_svg {
   height: 100vh;
@@ -239,6 +297,74 @@ p {
 {
   position: relative;
   background: url(../img/1.jpg) no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+
+  color: #fff;
+  text-align: center;
+  height: 70vh;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+ 
+}
+.parallax3
+
+{
+  position: relative;
+  background: url(../img/4JanuaryMassimoBottura_1099.jpg) no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+
+  color: #fff;
+  text-align: center;
+  height: 70vh;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+ 
+}
+.parallax4
+
+{
+  position: relative;
+  background: url(../img/El-chef-Massimo-Bottura-dando-el-ultimo-toque-a-sus-platos-en-el-restaurante-La-Francescana-de.jpg) no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+
+  color: #fff;
+  text-align: center;
+  height: 70vh;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+ 
+}
+.parallax5
+
+{
+  position: relative;
+  background: url(../img/horse-gastronomia-estrellas-michelin-destinos-viajes-martin-berasategui-plato.jpg) no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+
+  color: #fff;
+  text-align: center;
+  height: 70vh;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+ 
+}
+.parallax6
+
+{
+  position: relative;
+  background: url(../img/1079818800.jpg) no-repeat center center fixed;
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -505,3 +631,10 @@ p {
     height: 260px;
   }
 }
+/*-----------------*/
+footer
+{
+  background-color: black;
+  color: white;
+}
+/*-----------------*/
