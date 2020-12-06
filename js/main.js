@@ -1,5 +1,5 @@
 /*-------------ScrollReveal-------------*/
-ScrollReveal({ reset: true });
+/*ScrollReveal({ reset: true });*/
 
 window.sr = ScrollReveal();
 
@@ -109,3 +109,36 @@ $('nav a').click(function(event) {
     }, 500);
     event.preventDefault();
 });
+
+
+function calcular()
+{
+    var altura=document.getElementById('altura').value
+    var peso=document.getElementById('peso').value
+    var IMC=(peso)/(altura*altura)
+    if (IMC<16)
+    {
+    document.getElementById('resp').innerHTML=('Su indice de masa corporal es:'+' '+IMC+'<br>'+'Su estado es: Infra Peso')
+    }
+    if (IMC<25 && IMC>18)
+    {
+    document.getElementById('resp').innerHTML=('Su indice de masa corporal es:'+' '+IMC+'<br>'+'Su estado es: Peso Normal')
+    }
+    if (IMC<30 && IMC>25)
+    {
+    document.getElementById('resp').innerHTML=('Su indice de masa corporal es:'+' '+IMC+'<br>'+'Su estado es: Sobre Peso')
+    }
+    if (IMC<35 && IMC>30)
+    {
+    document.getElementById('resp').innerHTML=('Su indice de masa corporal es:'+' '+IMC+'<br>'+'Su estado es: Obesidad Leve')
+    }
+    if (IMC<40 && IMC>35)
+    {
+    document.getElementById('resp').innerHTML=('Su indice de masa corporal es:'+' '+IMC+'<br>'+'Su estado es: Obesidad Media')
+    }
+    if ( IMC>40)
+    {
+    document.getElementById('resp').innerHTML=('Su indice de masa corporal es:'+' '+IMC+'<br>'+'Su estado es: Obesidad Morbida')
+    }
+
+}

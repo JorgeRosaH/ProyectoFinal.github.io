@@ -1,5 +1,5 @@
 /*-------------ScrollReveal-------------*/
-ScrollReveal({ reset: true });
+/*ScrollReveal({ reset: true });*/
 
 window.sr = ScrollReveal();
 sr.reveal('.entradas',
